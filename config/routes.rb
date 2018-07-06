@@ -1,3 +1,5 @@
 Rails.application.routes.draw do
-  get '/songs', to: 'songs#index'
+  resources :songs
+  resources :playlists
+  resources :artists
 end
