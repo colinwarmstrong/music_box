@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
-  resources :songs
+  resources :artists, shallow: true do
+    resources :songs, except: [:index]
+  end
+  resources :songs, only: [:index]
   resources :playlists
-  resources :artists
 end

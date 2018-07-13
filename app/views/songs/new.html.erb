@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  </head>
+  <body>
+    <div class='background-image'>
+      <h1>Create A New Song</h1>
+      <div class='new-song-form'>
+        <%= form_for [@artist, @song] do |f| %>
+          <div class='form-fields'>
+            <div><%= f.label :title %></div>
+            <div class='text-field'><%= f.text_field :title %></div>
+            <div><%= f.label :length %></div>
+            <div class='text-field'><%= f.text_field :length %></div>
+            <div><%= f.label :play_count %></div>
+            <div class='text-field'><%= f.text_field :play_count %></div>
+            <%= f.submit nil, :class => 'create-song-button' %>
+          </div>
+        <% end %>
+      </div>
+    </div>
+  </body>
+</html>
