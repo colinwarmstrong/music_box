@@ -1,2 +1,6 @@
-<%= link_to 'Sign Up to be a New User', new_user_path %>
-<%= link_to 'I already have an account', login_path %>
+<% unless current_user %>
+  <%= link_to 'Sign Up to be a New User', new_user_path %>
+  <%= link_to 'I already have an account', login_path %>
+<% else %>
+  <%= link_to 'Logout', logout_path %>
+<% end %>

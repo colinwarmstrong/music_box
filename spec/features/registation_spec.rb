@@ -1,6 +1,7 @@
 require 'rails_helper'
 
 describe 'registration workflow' do
+
   it 'submits registration form successfully' do
     username = 'pumped_to_be_here'
 
