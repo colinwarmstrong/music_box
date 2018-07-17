@@ -1,11 +1,10 @@
 require 'rails_helper'
 
 describe 'registration workflow' do
-
   it 'submits registration form successfully' do
     username = 'pumped_to_be_here'
 
-    visit '/'
+    visit root_path
 
     click_on 'Sign Up to be a New User'
 
