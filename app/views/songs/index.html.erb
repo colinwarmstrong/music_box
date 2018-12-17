@@ -4,4 +4,5 @@
   <p><%= song.title %></p>
   <p>Length: <%= song.length %></p>
   <p>Plays: <%= song.play_count %></p>
+  <%= link_to 'Add to Cart', user_cart_path(current_user.id) %>
 <% end %>

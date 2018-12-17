@@ -15,4 +15,8 @@ Rails.application.routes.draw do
   namespace :admin do
     resources :categories, only: [:index]
   end
+
+  namespace :user do
+    resources :cart, only: [:show]
+  end
 end

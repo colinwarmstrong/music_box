@@ -196,6 +196,10 @@
         1,
         1,
         null,
+        null,
+        1,
+        1,
+        null,
         null
       ],
       "/Users/colinarmstrong/Turing/mod2/music_box_1804/app/helpers/application_helper.rb": [
@@ -301,11 +305,38 @@
         null,
         null
       ],
+      "/Users/colinarmstrong/Turing/mod2/music_box_1804/spec/features/user_can_add_songs_to_cart_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
+        0,
+        null,
+        0,
+        0,
+        null,
+        null
+      ],
       "/Users/colinarmstrong/Turing/mod2/music_box_1804/spec/features/user_can_create_a_new_song_spec.rb": [
         1,
         null,
         1,
         1,
+        1,
+        1,
+        null,
         1,
         1,
         1,
@@ -328,6 +359,9 @@
         null,
         1,
         1,
+        1,
+        1,
+        null,
         1,
         1,
         1,
@@ -462,11 +496,28 @@
         1,
         null
       ],
+      "/Users/colinarmstrong/Turing/mod2/music_box_1804/app/controllers/application_controller.rb": [
+        1,
+        1,
+        null,
+        1,
+        null,
+        1,
+        8,
+        3,
+        null,
+        null,
+        null,
+        1,
+        2,
+        null,
+        null
+      ],
       "/Users/colinarmstrong/Turing/mod2/music_box_1804/app/controllers/songs_controller.rb": [
         1,
         null,
         1,
-        2,
+        3,
         null,
         null,
         1,
@@ -491,20 +542,7 @@
         null,
         null
       ],
-      "/Users/colinarmstrong/Turing/mod2/music_box_1804/app/controllers/application_controller.rb": [
-        1,
-        1,
-        null,
-        1,
-        null,
-        1,
-        8,
-        3,
-        null,
-        null,
-        null
-      ],
-      "/Users/colinarmstrong/Turing/mod2/music_box_1804/app/controllers/welcome_controller.rb": [
+      "/Users/colinarmstrong/Turing/mod2/music_box_1804/app/controllers/admin/categories_controller.rb": [
         1,
         null,
         1,
@@ -512,32 +550,21 @@
         null,
         null
       ],
-      "/Users/colinarmstrong/Turing/mod2/music_box_1804/app/controllers/users_controller.rb": [
-        1,
-        null,
-        1,
-        2,
-        null,
-        null,
-        1,
-        2,
-        2,
+      "/Users/colinarmstrong/Turing/mod2/music_box_1804/app/controllers/admin/base_controller.rb": [
         1,
         1,
-        null,
-        1,
-        null,
-        null,
-        null,
-        1,
-        3,
-        null,
         null,
         1,
         null,
         1,
         2,
         null,
+        null
+      ],
+      "/Users/colinarmstrong/Turing/mod2/music_box_1804/app/models/playlist_song.rb": [
+        1,
+        1,
+        1,
         null
       ],
       "/Users/colinarmstrong/Turing/mod2/music_box_1804/app/controllers/artists_controller.rb": [
@@ -572,10 +599,19 @@
         null,
         null
       ],
-      "/Users/colinarmstrong/Turing/mod2/music_box_1804/app/models/playlist_song.rb": [
+      "/Users/colinarmstrong/Turing/mod2/music_box_1804/app/controllers/user/cart_controller.rb": [
         1,
+        null,
         1,
+        null,
+        null
+      ],
+      "/Users/colinarmstrong/Turing/mod2/music_box_1804/app/controllers/welcome_controller.rb": [
         1,
+        null,
+        1,
+        null,
+        null,
         null
       ],
       "/Users/colinarmstrong/Turing/mod2/music_box_1804/app/controllers/sessions_controller.rb": [
@@ -601,15 +637,35 @@
         null,
         null
       ],
-      "/Users/colinarmstrong/Turing/mod2/music_box_1804/app/controllers/admin/categories_controller.rb": [
+      "/Users/colinarmstrong/Turing/mod2/music_box_1804/app/controllers/users_controller.rb": [
+        1,
+        null,
+        1,
+        2,
+        null,
+        null,
+        1,
+        2,
+        2,
+        1,
         1,
         null,
         1,
         null,
+        null,
+        null,
+        1,
+        3,
+        null,
+        null,
+        1,
+        null,
+        1,
+        2,
         null,
         null
       ]
     },
-    "timestamp": 1531842354
+    "timestamp": 1545091077
   }
 }
